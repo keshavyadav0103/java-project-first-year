@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black"
+    tools:context=".setting">
+
+
+    <TextView
+        android:id="@+id/name_of_user"
+        android:layout_width="405dp"
+        android:layout_height="74dp"
+        android:padding="7dp"
+        android:text="NAME"
+        android:textColor="@color/white"
+        android:textSize="25dp"
+
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.141"
+        tools:layout_editor_absoluteX="3dp" />
+
+    <TextView
+        android:id="@+id/setings"
+        android:layout_width="405dp"
+        android:layout_height="74dp"
+        android:padding="7dp"
+        android:text="SETTINGS"
+        android:textColor="@color/white"
+        android:textSize="25dp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.241"
+        tools:layout_editor_absoluteX="3dp" />
+
+    <TextView
+        android:id="@+id/logout"
+        android:layout_width="405dp"
+        android:layout_height="74dp"
+        android:padding="7dp"
+        android:text="LOGOUT"
+        android:textColor="@color/white"
+        android:textSize="25dp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.438"
+        tools:layout_editor_absoluteX="3dp" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="83dp"
+        android:layout_height="78dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.021"
+        app:srcCompat="@drawable/ic_baseline_person_2_24"
+        tools:layout_editor_absoluteX="3dp" />
+
+    <TextView
+        android:id="@+id/abus"
+        android:layout_width="405dp"
+        android:layout_height="74dp"
+        android:padding="7dp"
+        android:text="ABOUT US"
+
+        android:textColor="@color/white"
+        android:textSize="25dp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.344"
+        tools:layout_editor_absoluteX="3dp" />
+</androidx.constraintlayout.widget.ConstraintLayout>

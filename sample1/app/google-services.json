@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "682090424894",
+    "project_id": "cypher-securities",
+    "storage_bucket": "cypher-securities.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:682090424894:android:89efbb3acc4bfa66ad7f6f",
+        "android_client_info": {
+          "package_name": "com.example.sample1"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "682090424894-9vi8ar9s2be0rfc8292kngan7e6rdumv.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDNqm6p7HbUYhkZzMK5-LmmZISpFNl_WYM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "682090424894-9vi8ar9s2be0rfc8292kngan7e6rdumv.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
