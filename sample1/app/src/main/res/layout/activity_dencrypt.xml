@@ -12,10 +12,13 @@
         android:id="@+id/startd"
         android:layout_width="351dp"
         android:layout_height="81dp"
+
         android:text="Start Dencryption"
         android:textColor="@color/black"
         android:backgroundTint="@color/white"
+
         android:textSize="24dp"
+        android:onClick="startdn"
         app:cornerRadius="30dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -28,6 +31,7 @@
         android:id="@+id/imageView3"
         android:layout_width="100dp"
         android:layout_height="86dp"
+
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.948"
@@ -54,6 +58,16 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.265" />
+
+    <TextView
+        android:id="@+id/dn"
+        android:layout_width="408dp"
+        android:layout_height="104dp"
+        android:text=" "
+        android:background="@color/white"
+        android:textColor="@color/black"
+        tools:layout_editor_absoluteX="4dp"
+        tools:layout_editor_absoluteY="601dp" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -15,8 +15,10 @@
         android:text="Start Encryption"
         android:textColor="@color/black"
         android:backgroundTint="@color/white"
+        android:onClick="starte"
         android:textSize="24dp"
         app:cornerRadius="30dp"
+
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -53,14 +55,35 @@
 
     <TextView
         android:id="@+id/gkey"
-        android:layout_width="402dp"
-        android:layout_height="72dp"
+        android:layout_width="291dp"
+        android:layout_height="126dp"
         android:text=" "
         android:textColor="@color/white"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.794"
+        app:layout_constraintHorizontal_bias="0.125"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.721" />
+        app:layout_constraintVertical_bias="0.777" />
+
+    <TextView
+        android:id="@+id/en"
+        android:layout_width="409dp"
+        android:layout_height="93dp"
+        android:text=" "
+        android:textColor="@color/white"
+        tools:layout_editor_absoluteX="5dp"
+        tools:layout_editor_absoluteY="296dp" />
+
+    <ImageView
+        android:id="@+id/copy_key"
+        android:layout_width="89dp"
+        android:layout_height="70dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.95"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.761"
+        app:srcCompat="@drawable/baseline_content_copy_24" />
 </androidx.constraintlayout.widget.ConstraintLayout>
