@@ -6,12 +6,14 @@
         android:allowBackup="true"
         android:dataExtractionRules="@xml/data_extraction_rules"
         android:fullBackupContent="@xml/backup_rules"
-        android:icon="@drawable/newapplogo"
+        android:icon="@drawable/applogo"
         android:label="cypher Securities"
-        android:roundIcon="@drawable/newapplogo"
+        android:roundIcon="@drawable/applogo"
         android:supportsRtl="true"
         android:theme="@style/Theme.Sample1"
-        tools:targetApi="31">
+
+
+    tools:targetApi="31">
         <activity
             android:name=".aboutus"
             android:exported="false" />
@@ -87,5 +89,6 @@
                 android:value="" />
         </activity>
     </application>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
 
 </manifest>

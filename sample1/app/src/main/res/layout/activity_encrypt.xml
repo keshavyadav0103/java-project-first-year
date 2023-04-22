@@ -42,15 +42,17 @@
         app:layout_constraintVertical_bias="0.556" />
 
     <ImageView
-        android:id="@+id/imageView3"
-        android:layout_width="100dp"
-        android:layout_height="86dp"
+        android:id="@+id/ed"
+        android:layout_width="94dp"
+        android:layout_height="88dp"
+
+        android:onClick="download"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.948"
+        app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.947"
+        app:layout_constraintVertical_bias="0.946"
         app:srcCompat="@drawable/baseline_download_24" />
 
     <TextView
@@ -77,8 +79,8 @@
 
     <ImageView
         android:id="@+id/copy_key"
-        android:layout_width="89dp"
-        android:layout_height="70dp"
+        android:layout_width="59dp"
+        android:layout_height="53dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.95"
