@@ -9,8 +9,8 @@
 
     <ImageButton
         android:id="@+id/imageView2"
-        android:layout_width="89dp"
-        android:layout_height="82dp"
+        android:layout_width="72dp"
+        android:layout_height="63dp"
         android:background="#1d141d"
         android:scaleType="fitCenter"
         app:srcCompat="@drawable/newapplogo"
@@ -19,11 +19,11 @@
 
     <Button
         android:id="@+id/Encrypt"
-        android:layout_width="294dp"
-        android:layout_height="72dp"
+        android:layout_width="302dp"
+        android:layout_height="63dp"
+        android:backgroundTint="@color/white"
         android:text="ENCRYPTION"
         android:textColor="@color/black"
-        android:backgroundTint="@color/white"
         android:textSize="24dp"
         app:cornerRadius="30dp"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -35,38 +35,40 @@
 
     <Button
         android:id="@+id/Dencrypt"
-        android:layout_width="289dp"
-        android:layout_height="70dp"
+        android:layout_width="302dp"
+        android:layout_height="66dp"
+        android:backgroundTint="@color/white"
         android:text="DENCRYPTION"
         android:textColor="@color/black"
-        android:backgroundTint="@color/white"
         android:textSize="24dp"
         app:cornerRadius="30dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.422"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.777" />
+        app:layout_constraintVertical_bias="0.776" />
 
     <EditText
         android:id="@+id/textinput"
-        android:layout_width="264dp"
-        android:layout_height="80dp"
+        android:layout_width="316dp"
+        android:layout_height="65dp"
+        android:background="@color/white"
         android:ems="10"
-        android:hint="Enter text"
+        android:hint="ENTER TEXT"
         android:inputType="text"
 
-        android:textColorHint="@color/black"
-        android:background="@color/white"
-        android:textStyle="bold"
-        android:textSize="24dp"
+        android:textAlignment="center"
         android:textColor="@color/black"
+        android:textColorHint="@color/black"
+        android:textSize="24dp"
+        android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintHorizontal_bias="0.484"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.258" />
+        app:layout_constraintVertical_bias="0.273" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>

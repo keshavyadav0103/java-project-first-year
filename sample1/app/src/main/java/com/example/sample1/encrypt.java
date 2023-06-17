@@ -72,7 +72,6 @@ public class encrypt extends AppCompatActivity {
 
 
 
-
     }
 
     ArrayList<Character> shuffledList;
@@ -99,6 +98,7 @@ public class encrypt extends AppCompatActivity {
             }
         }
         Text = String.valueOf(letter);
+        Toast.makeText(getApplicationContext(),"Encryption done",Toast.LENGTH_SHORT).show();
 
 
     }
@@ -109,6 +109,7 @@ public class encrypt extends AppCompatActivity {
             skey += x;
         }
         out.setText(skey);
+
         insertencryptdata();
     }
     private void insertencryptdata(){

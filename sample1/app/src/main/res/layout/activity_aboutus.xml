@@ -12,13 +12,14 @@
         android:layout_width="414dp"
         android:layout_height="101dp"
         android:padding="10dp"
-        android:text="            ABOUT US"
+        android:text="ABOUT US"
+        android:textAlignment="center"
         android:textColor="@color/white"
         android:textSize="35dp"
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.049"
+        app:layout_constraintVertical_bias="0.077"
         tools:layout_editor_absoluteX="-2dp" />
 
     <TextView
@@ -28,7 +29,7 @@
         android:gravity="center"
         android:text="Welcome to our encryption and decryption app! We're passionate about data security and privacy. Our mission is to make encryption technology accessible to everyone. Our app uses state-of-the-art encryption algorithms to keep your data safe."
         android:textSize="30dp"
-        android:textColor="#535050"
+        android:textColor="#FFFF"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"

@@ -12,7 +12,7 @@
         android:id="@+id/starte"
         android:layout_width="351dp"
         android:layout_height="81dp"
-        android:text="Start Encryption"
+        android:text="START ENCRYPTION"
         android:textColor="@color/black"
         android:backgroundTint="@color/white"
         android:onClick="starte"
@@ -43,16 +43,16 @@
 
     <ImageView
         android:id="@+id/ed"
-        android:layout_width="94dp"
-        android:layout_height="88dp"
+        android:layout_width="64dp"
+        android:layout_height="77dp"
 
         android:onClick="download"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintHorizontal_bias="0.95"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.946"
+        app:layout_constraintVertical_bias="0.932"
         app:srcCompat="@drawable/baseline_download_24" />
 
     <TextView
